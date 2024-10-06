@@ -38,3 +38,30 @@ body{
 .cont a{
     color: white;
 }
+@media (max-width: 1853px) {
+    .main{
+        width: 1400px;
+    }
+}
+@media (max-width: 1415px) {
+    .main{
+        width: 1200px;
+    }
+}
+@media (max-width: 1220px) {
+    .main{
+        width: 900px
+    }
+}
+@media (max-width: 912px) {
+    .main {width: 600px;}
+}
+@media (max-width: 654px) {
+    .main{
+        margin-block: 40px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
